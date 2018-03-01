@@ -1,0 +1,73 @@
+<!--@layout(/layout/basic/main.html)-->
+
+
+<!-- 추천상품 -->
+<div class="e_center">
+    <div module="product_listmain_1">
+        <!--@css(/css/module/product/listmain_1.css)-->
+        <!--
+    $count = 8
+    $basket_result = /product/add_basket.html
+    $basket_option = /product/basket_option.html
+    -->
+        <h2><span>추천상품</span></h2>
+        <div class="prdList">
+            <ul>
+                <li>
+                    <a href="/product/detail.html{$param}" class="prdImg"><img src="{$image_medium}" alt="" /></a>
+                    <span class="zoom"><img src="http://img.echosting.cafe24.com/design/skin/mono/btn_prd_zoom.gif" onclick="{$zoom_action}" alt="확대보기" /></span>
+                    <a href="/product/detail.html{$param}" class="name">{$product_name}</a>
+                    <span class="icon">{$soldout_icon}{$recommend_icon}{$new_icon}{$product_icons}</span>
+                    <strong class="price">{$price_unit_head}{$product_price}{$price_unit_tail}</strong>
+                </li>
+                <li>
+                    <a href="/product/detail.html{$param}" class="prdImg"><img src="{$image_medium}" alt="" /></a>
+                    <span class="zoom"><img src="http://img.echosting.cafe24.com/design/skin/mono/btn_prd_zoom.gif" onclick="{$zoom_action}" alt="확대보기" /></span>
+                    <a href="/product/detail.html{$param}" class="name">{$product_name}</a>
+                    <span class="icon">{$soldout_icon}{$recommend_icon}{$new_icon}{$product_icons}</span>
+                    <strong class="price">{$price_unit_head}{$product_price}{$price_unit_tail}</strong>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- //추천상품 -->
+
+<!-- 중간 배경 -->
+<div class="bg_middle">
+    <div class="e_center">
+        <p>가나다라마바사</p>
+    </div>
+</div>
+
+<!-- 신상품 -->
+<div class="e_center">
+    <div module="product_listmain_2">
+        <!--@css(/css/module/product/listmain_2.css)-->
+        <!--
+    $count = 6
+    -->
+        <h2>신상품</h2>
+        <div class="prdList">
+            <ul>
+                <li>
+                    <a name="anchorBoxName_{$product_no}" href="/product/detail.html{$param}" class="prdImg"><img src="{$image_medium}" alt="" /></a>
+                    <span class="zoom"><img src="http://img.echosting.cafe24.com/design/skin/mono/btn_prd_zoom.gif" onclick="{$zoom_action}" alt="확대보기" /></span>
+                    <a href="/product/detail.html{$param}" class="name">{$product_name}</a>
+                    <span class="icon">{$soldout_icon}{$recommend_icon}{$new_icon}{$product_icons}</span>
+                    <strong class="price">{$price_unit_head}{$product_price}{$price_unit_tail}</strong>
+                </li>
+                <li>
+                    <a name="anchorBoxName_{$product_no}" href="/product/detail.html{$param}" class="prdImg"><img src="{$image_medium}" alt="" /></a>
+                    <span class="zoom"><img src="http://img.echosting.cafe24.com/design/skin/mono/btn_prd_zoom.gif" onclick="{$zoom_action}" alt="확대보기" /></span>
+                    <a href="/product/detail.html{$param}" class="name">{$product_name}</a>
+                    <span class="icon">{$soldout_icon}{$recommend_icon}{$new_icon}{$product_icons}</span>
+                    <strong class="price">{$price_unit_head}{$product_price}{$price_unit_tail}</strong>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- //신상품 -->
+
+<!--@define(cmc_log)-->

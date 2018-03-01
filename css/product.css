@@ -1,0 +1,199 @@
+/* 추천상품 공통 */
+
+.xans-product-1 {
+    margin: 50px 0;
+}
+
+.xans-product-1 h2 {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #959595;
+}
+
+.xans-product-1 div.prdList {
+    margin: -14px -15px 0 0;
+}
+
+.xans-product-1 ul {
+    display: table;
+    width: 100%;
+    font-size: 0;
+    line-height: 0;
+}
+
+.xans-product-1 ul li {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: top;
+    position: relative;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.xans-product-1 ul .prdImg {
+    display: block;
+}
+
+.xans-product-1 ul .prdImg img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ececec;
+    box-sizing: border-box;
+}
+
+.xans-product-1 ul .zoom {
+    position: absolute;
+    bottom: 40px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.xans-product-1 ul .name {
+    display: block;
+    padding: 7px 0;
+    color: #4e4e4e;
+    line-height: 16px;
+    text-align: center;
+}
+
+.xans-product-1 ul .icon {
+    display: block;
+    text-align: center;
+}
+
+.xans-product-1 ul .icon img {
+    margin-left: 5px;
+}
+
+.xans-product-1 ul .icon img:first-child {
+    margin-left: 0;
+}
+
+.xans-product-1 ul .price {
+    display: block;
+    margin-top: 5px;
+    color: #66676b;
+    text-align: center;
+}
+
+
+
+
+/* 중간 배경화면 */
+
+.bg_middle {
+    width: 100%;
+    display: table;
+    padding: 120px 0 50px 0;
+    height: 450px;
+    zoom: 1;
+}
+
+.bg_middle > div {
+    display: table-cell;
+    width: 1200px;
+    height: 450px;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: center;
+    background: url(/web/upload/editor/shop/images/bg_middle.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg_middle p {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+/* 신상품 공통 */
+
+.xans-product-2 {
+    margin: 50px 0;
+}
+
+.xans-product-2 h2 {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #959595;
+}
+
+.xans-product-2 div.prdList {
+    margin: -14px -15px 0 0;
+}
+
+.xans-product-2 ul {
+    display: table;
+    width: 100%;
+    font-size: 0;
+    line-height: 0;
+}
+
+.xans-product-2 ul li {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: top;
+    position: relative;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.xans-product-2 ul .prdImg {
+    display: block;
+}
+
+.xans-product-2 ul .prdImg img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ececec;
+    box-sizing: border-box;
+}
+
+.xans-product-2 ul .zoom {
+    position: absolute;
+    bottom: 40px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.xans-product-2 ul .name {
+    display: block;
+    padding: 7px 0;
+    color: #4e4e4e;
+    line-height: 16px;
+    text-align: center;
+}
+
+.xans-product-2 ul .icon {
+    display: block;
+    text-align: center;
+}
+
+.xans-product-2 ul .icon img {
+    margin-left: 5px;
+}
+
+.xans-product-2 ul .icon img:first-child {
+    margin-left: 0;
+}
+
+.xans-product-2 ul .price {
+    display: block;
+    margin-top: 5px;
+    color: #66676b;
+    text-align: center;
+}
